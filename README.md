@@ -27,7 +27,7 @@ The visualizations (see figures in this repository) show that the TFT forecast c
 To better handle extended nighttime zero-production, a Weighted Multi-Quantile Loss (WMQLoss) was introduced. This loss function reduces the influence of long zero intervals, allowing the model to prioritize daytime dynamics while still maintaining uncertainty coverage.
 
 <p align="center">
-  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png" width="300" />
+  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png" width="500" />
 </p>
 
 **Challenges: Zero-Inflation and Hardware Constraints**
@@ -59,11 +59,11 @@ Complete coverage of the full training dataset
 This adaptive pipeline allowed the Temporal Fusion Transformer to achieve stable and reliable performance, even under limited computational resources, while leveraging the high-capacity architecture provided by PyTorch and NeuralForecast.
 
 <p align="center">
-  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png" width="300" />
+  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png" width="500" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png" width="300" />
+  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png" width="500" />
 </p>
 
 **Key Outcomes**
