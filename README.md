@@ -4,7 +4,9 @@
 
 This project focuses on day-ahead, multi-horizon forecasting of solar power generation in Germany using the Temporal Fusion Transformer (TFT) — a state-of-the-art deep learning architecture designed for interpretable sequence modeling. Solar generation is a highly nonlinear time series characterized by strong diurnal cycles, discontinuities between day and night, and sharp ramps at sunrise and sunset. These properties make forecasting challenging, especially for models that assume smooth temporal dynamics. TFT was selected for its ability to integrate attention mechanisms, static covariates, gating layers, and multi-quantile prediction to model uncertainty and temporal dependencies.
 
-![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/TFT_Architecture.jpg)
+<p align="center">
+  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/TFT_Architecture.jpg" />
+</p>
 
 **Model Performance and Forecasting Behavior**
 
