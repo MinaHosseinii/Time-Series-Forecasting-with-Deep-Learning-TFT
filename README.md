@@ -26,7 +26,9 @@ The visualizations (see figures in this repository) show that the TFT forecast c
 
 To better handle extended nighttime zero-production, a Weighted Multi-Quantile Loss (WMQLoss) was introduced. This loss function reduces the influence of long zero intervals, allowing the model to prioritize daytime dynamics while still maintaining uncertainty coverage.
 
-![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png)
+<p align="center">
+  <img src="https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png width="48" />
+</p>
 
 **Challenges: Zero-Inflation and Hardware Constraints**
 
