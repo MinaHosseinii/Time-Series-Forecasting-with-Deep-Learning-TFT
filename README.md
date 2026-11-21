@@ -23,6 +23,8 @@ The visualizations (see figures in this repository) show that the TFT forecast c
 
 To better handle extended nighttime zero-production, a Weighted Multi-Quantile Loss (WMQLoss) was introduced. This loss function reduces the influence of long zero intervals, allowing the model to prioritize daytime dynamics while still maintaining uncertainty coverage.
 
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png)
+
 **Challenges: Zero-Inflation and Hardware Constraints**
 
 Solar power exhibits a discontinuous time series with predictable zeros during nighttime and sharp daytime variability. These patterns create difficulties for attention-based models like TFT, which rely on rich temporal embeddings. Although TFT includes gating layers and variable selection networks, it still struggled to fully capture:
@@ -50,6 +52,9 @@ Robust recovery from crashes
 Complete coverage of the full training dataset
 
 This adaptive pipeline allowed the Temporal Fusion Transformer to achieve stable and reliable performance, even under limited computational resources, while leveraging the high-capacity architecture provided by PyTorch and NeuralForecast.
+
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-LearningTFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png)
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png)
 
 **Key Outcomes**
 
