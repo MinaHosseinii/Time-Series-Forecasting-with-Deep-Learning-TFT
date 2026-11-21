@@ -3,6 +3,7 @@
 **Forecasting with Temporal Fusion Transformers (TFT)**
 
 This project focuses on day-ahead, multi-horizon forecasting of solar power generation in Germany using the Temporal Fusion Transformer (TFT) — a state-of-the-art deep learning architecture designed for interpretable sequence modeling. Solar generation is a highly nonlinear time series characterized by strong diurnal cycles, discontinuities between day and night, and sharp ramps at sunrise and sunset. These properties make forecasting challenging, especially for models that assume smooth temporal dynamics. TFT was selected for its ability to integrate attention mechanisms, static covariates, gating layers, and multi-quantile prediction to model uncertainty and temporal dependencies.
+
 ![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/TFT_Architecture.jpg)
 
 **Model Performance and Forecasting Behavior**
@@ -23,7 +24,7 @@ The visualizations (see figures in this repository) show that the TFT forecast c
 
 To better handle extended nighttime zero-production, a Weighted Multi-Quantile Loss (WMQLoss) was introduced. This loss function reduces the influence of long zero intervals, allowing the model to prioritize daytime dynamics while still maintaining uncertainty coverage.
 
-![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png)
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png)
 
 **Challenges: Zero-Inflation and Hardware Constraints**
 
@@ -53,8 +54,8 @@ Complete coverage of the full training dataset
 
 This adaptive pipeline allowed the Temporal Fusion Transformer to achieve stable and reliable performance, even under limited computational resources, while leveraging the high-capacity architecture provided by PyTorch and NeuralForecast.
 
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png)
 ![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-LearningTFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png)
-![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Solar_Generation_Prediction_with_Intervals.png)
 
 **Key Outcomes**
 
