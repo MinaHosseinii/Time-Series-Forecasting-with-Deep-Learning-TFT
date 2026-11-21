@@ -55,7 +55,7 @@ Complete coverage of the full training dataset
 This adaptive pipeline allowed the Temporal Fusion Transformer to achieve stable and reliable performance, even under limited computational resources, while leveraging the high-capacity architecture provided by PyTorch and NeuralForecast.
 
 ![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Train_Validation_Loss_Curve.png)
-![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-LearningTFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png)
+![this is image](https://github.com/MinaHosseinii/Time-Series-Forecasting-with-Deep-Learning-TFT/blob/main/Aggregated%20Train%20and%20Validation%20Loss%20Across%20All%20Chunks.png)
 
 **Key Outcomes**
 
